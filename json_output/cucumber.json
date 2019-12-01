@@ -1,0 +1,169 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21881691900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Auden website",
+            "match": {
+              "location": "AudenStepDef.i_am_on_Auden_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Lunch Auden and book loan",
+        "description": "",
+        "id": "auden-loan-booking-application;lunch-auden-and-book-loan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1101119200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see home link",
+            "match": {
+              "location": "AudenStepDef.i_should_see_home_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7411036700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I scroll the slider bar to home and end",
+            "match": {
+              "location": "AudenStepDef.iScrollTheSliderBarToHomeAndEnd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8075180800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the corresponding amount on the page",
+            "match": {
+              "location": "AudenStepDef.i_should_see_the_corresponding_amount_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3130238300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I scroll the slider bar to the last monthly instalment",
+            "match": {
+              "location": "AudenStepDef.iScrollTheSliderBarToTheLastMonthlyInstalment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3037540800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see the corresponding instalment period",
+            "match": {
+              "location": "AudenStepDef.iShouldSeeTheCorrespondingInstalmentPeriod()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2146031200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the repayment calendar button",
+            "match": {
+              "location": "AudenStepDef.iClickOnTheRepaymentCalendarButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5089136700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I scroll to view the calendar",
+            "match": {
+              "location": "AudenStepDef.iScrollToViewTheCalendar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3003445800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select a repayment weekend date form the calendar",
+            "match": {
+              "location": "AudenStepDef.iSelectARepaymentWeekendDateFormTheCalendar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3052219700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see a previous working date as default",
+            "match": {
+              "location": "AudenStepDef.iShouldSeeAPreviousWorkingDateAsDefault()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17250344800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I close the browser",
+            "match": {
+              "location": "AudenStepDef.iCloseTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Auden Loan Booking Application",
+    "description": "\r\nAs a user I should be able to book a loan.",
+    "id": "auden-loan-booking-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/olatu/Documents/Visual Studio 2017/Projects/AudenLoanBookingApp/src/test/java/Feature/Auden.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@RegressionTest"
+      }
+    ]
+  }
+]
