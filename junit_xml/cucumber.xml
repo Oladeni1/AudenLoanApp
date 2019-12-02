@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="75.177986">
-<testcase classname="Auden Loan Booking Application" name="Lunch Auden and book loan" time="75.177986">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="74.59845">
+<testcase classname="Auden Loan Booking Application" name="Lunch Auden and book loan" time="74.59845">
 <system-out><![CDATA[Given I am on Auden website.................................................passed
 Then I should see home link.................................................passed
 And I scroll the slider bar to home and end.................................passed
