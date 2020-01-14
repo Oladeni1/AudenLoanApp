@@ -54,7 +54,7 @@ public class HomePage {
         driver.manage().timeouts().implicitlyWait(2000L, TimeUnit.SECONDS);
         driver.get("https://www.auden.co.uk/Credit/ShortTermLoan");
 
-
+        
     }
     public void verifyHomePage(){
         wait(1000);

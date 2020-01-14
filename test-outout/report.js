@@ -28,7 +28,7 @@ formatter.match({
   "location": "AudenStepDef.i_am_on_Auden_website()"
 });
 formatter.result({
-  "duration": 32769948700,
+  "duration": 37876134700,
   "status": "passed"
 });
 formatter.scenario({
@@ -93,70 +93,58 @@ formatter.match({
   "location": "AudenStepDef.i_should_see_home_link()"
 });
 formatter.result({
-  "duration": 1093607700,
+  "duration": 1186098000,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iScrollTheSliderBarToHomeAndEnd()"
 });
 formatter.result({
-  "duration": 7490122900,
+  "duration": 7384251300,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.i_should_see_the_corresponding_amount_on_the_page()"
 });
 formatter.result({
-  "duration": 8096108900,
+  "duration": 8102054100,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iScrollTheSliderBarToTheLastMonthlyInstalment()"
 });
 formatter.result({
-  "duration": 3137790500,
+  "duration": 3219993300,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iShouldSeeTheCorrespondingInstalmentPeriod()"
 });
 formatter.result({
-  "duration": 3044820300,
+  "duration": 3044480000,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iClickOnTheRepaymentCalendarButton()"
 });
 formatter.result({
-  "duration": 2276262400,
+  "duration": 2145665700,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iScrollToViewTheCalendar()"
 });
 formatter.result({
-  "duration": 5060979100,
+  "duration": 5118015800,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iSelectARepaymentWeekendDateFormTheCalendar()"
 });
 formatter.result({
-  "duration": 4277188500,
+  "duration": 3042921200,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iShouldSeeAPreviousWorkingDateAsDefault()"
-});
-formatter.result({
-  "duration": 3041203100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AudenStepDef.iCloseTheBrowser()"
-});
-formatter.result({
-  "duration": 4310418200,
-  "status": "passed"
-});
 });
