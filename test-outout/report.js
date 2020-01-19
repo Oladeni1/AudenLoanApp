@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/olatu/Documents/Visual Studio 2017/Projects/AudenLoanBookingApp/src/test/java/Feature/Auden.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/Feature/Auden.feature");
 formatter.feature({
   "line": 2,
   "name": "Auden Loan Booking Application",
@@ -28,7 +28,7 @@ formatter.match({
   "location": "AudenStepDef.i_am_on_Auden_website()"
 });
 formatter.result({
-  "duration": 37876134700,
+  "duration": 32200035800,
   "status": "passed"
 });
 formatter.scenario({
@@ -93,56 +93,56 @@ formatter.match({
   "location": "AudenStepDef.i_should_see_home_link()"
 });
 formatter.result({
-  "duration": 1186098000,
+  "duration": 1100786000,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iScrollTheSliderBarToHomeAndEnd()"
 });
 formatter.result({
-  "duration": 7384251300,
+  "duration": 7502727900,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.i_should_see_the_corresponding_amount_on_the_page()"
 });
 formatter.result({
-  "duration": 8102054100,
+  "duration": 8128425800,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iScrollTheSliderBarToTheLastMonthlyInstalment()"
 });
 formatter.result({
-  "duration": 3219993300,
+  "duration": 3268252700,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iShouldSeeTheCorrespondingInstalmentPeriod()"
 });
 formatter.result({
-  "duration": 3044480000,
+  "duration": 3103976100,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iClickOnTheRepaymentCalendarButton()"
 });
 formatter.result({
-  "duration": 2145665700,
+  "duration": 2214335800,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iScrollToViewTheCalendar()"
 });
 formatter.result({
-  "duration": 5118015800,
+  "duration": 5274318100,
   "status": "passed"
 });
 formatter.match({
   "location": "AudenStepDef.iSelectARepaymentWeekendDateFormTheCalendar()"
 });
 formatter.result({
-  "duration": 3042921200,
+  "duration": 5635474900,
   "status": "passed"
 });
 formatter.match({
