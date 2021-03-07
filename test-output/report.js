@@ -93,7 +93,7 @@ formatter.match({
   "location": "BanValStepDef.i_am_on_on_the_website()"
 });
 formatter.result({
-  "duration": 58295835300,
+  "duration": 60657950200,
   "status": "passed"
 });
 formatter.scenario({
@@ -159,14 +159,14 @@ formatter.match({
   "location": "BanValStepDef.user_enters_valid_SortCode(String)"
 });
 formatter.result({
-  "duration": 1169001700,
+  "duration": 2276496100,
   "status": "passed"
 });
 formatter.match({
   "location": "BanValStepDef.user_clicks_the_search_button()"
 });
 formatter.result({
-  "duration": 2260011200,
+  "duration": 13423765400,
   "status": "passed"
 });
 formatter.match({
@@ -179,14 +179,14 @@ formatter.match({
   "location": "BanValStepDef.expected_results(String)"
 });
 formatter.result({
-  "duration": 1077473300,
+  "duration": 1077088600,
   "status": "passed"
 });
 formatter.match({
   "location": "BanValStepDef.user_sees_the_clear_search_button()"
 });
 formatter.result({
-  "duration": 1054118700,
+  "duration": 1057783100,
   "status": "passed"
 });
 formatter.match({
@@ -199,14 +199,14 @@ formatter.match({
   "location": "BanValStepDef.user_sees_the_bank_name_and_address(String)"
 });
 formatter.result({
-  "duration": 1040531100,
+  "duration": 1066208600,
   "status": "passed"
 });
 formatter.match({
   "location": "BanValStepDef.i_close_browser()"
 });
 formatter.result({
-  "duration": 3321018900,
+  "duration": 21447536600,
   "status": "passed"
 });
 });

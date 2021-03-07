@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="68.21799">
+<testcase classname="Bank Sort Code Validation Application" name="Bank Sort code UI Validation" time="68.21799">
+<system-out><![CDATA[Given I am on on the website................................................passed
+When User enters valid SortCode "111111"....................................passed
+And User clicks the search button...........................................passed
+Then Expected results "Payments made to this account will be successful."...passed
+And User sees the clear search button.......................................passed
+And User sees the bank name and address "Bank name and address".............passed
+And I close browser.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

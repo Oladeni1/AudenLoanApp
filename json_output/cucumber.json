@@ -1,0 +1,154 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 58295835300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on on the website",
+            "match": {
+              "location": "BanValStepDef.i_am_on_on_the_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Bank Sort code UI Validation",
+        "description": "",
+        "id": "bank-sort-code-validation-application;bank-sort-code-ui-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1169001700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters valid SortCode \"111111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "111111",
+                  "offset": 28
+                }
+              ],
+              "location": "BanValStepDef.user_enters_valid_SortCode(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2260011200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks the search button",
+            "match": {
+              "location": "BanValStepDef.user_clicks_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1077473300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Expected results \"Payments made to this account will be successful.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Payments made to this account will be successful.",
+                  "offset": 18
+                }
+              ],
+              "location": "BanValStepDef.expected_results(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1054118700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User sees the clear search button",
+            "match": {
+              "location": "BanValStepDef.user_sees_the_clear_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040531100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User sees the bank name and address \"Bank name and address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank name and address",
+                  "offset": 37
+                }
+              ],
+              "location": "BanValStepDef.user_sees_the_bank_name_and_address(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3321018900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I close browser",
+            "match": {
+              "location": "BanValStepDef.i_close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Sort Code Validation Application",
+    "description": "\r\nAs a user I should be able to book a loan.",
+    "id": "bank-sort-code-validation-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature/BankVal.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@RegressionTest"
+      }
+    ]
+  }
+]

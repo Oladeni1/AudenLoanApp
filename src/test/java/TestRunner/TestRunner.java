@@ -1,4 +1,4 @@
-package AudenRunner;
+package TestRunner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\java\\Feature\\Auden.feature", //the path of the feature files
+        features = "src\\test\\java\\Feature\\BankVal.feature", //the path of the feature files
         glue={"StepDefinitions"}, //the path of the step definition files
         format= {"pretty","html:test-outout","html:target/cucumber.html.report","json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
         monochrome = false, //display the console output in a proper readable format
@@ -16,8 +16,7 @@ import org.junit.runner.RunWith;
 )
 
 
-public class AudenTestRunner {
-
+public class TestRunner {
 
 
 }
